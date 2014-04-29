@@ -15,7 +15,7 @@ curl https://api.lob.com/v1/jobs \
   -d "from[address_state]=NY" \
   -d "from[address_zip]=10001" \
   -d "from[address_country]=US" \
-  -d "object1[name]=tumblr.pdf" \
-  -F "object1[file]=@tumblr.pdf" \
+  -d "object1[name]=snailmail.pdf" \
+  -F "object1[file]=@snailmail.pdf" \
   -d "object1[setting_id]=100"
 rm snailmail.pdf 
