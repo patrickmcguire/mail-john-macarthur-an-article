@@ -8,7 +8,7 @@ curl https://api.lob.com/v1/jobs \
   -d "to[address_state]=NY" \
   -d "to[address_zip]=10012" \
   -d "to[address_country]=US" \
-  -d "from[name]=Leore Avidar" \
+  -d "from[name]=Emmanuel Goldstein" \
   -d "from[address_line1]=The Internet" \
   -d "from[address_line2]=101 Internet Way" \
   -d "from[address_city]=New York" \
