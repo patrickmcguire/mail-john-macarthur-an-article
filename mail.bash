@@ -1,4 +1,4 @@
-wget -O - $1 | wkhtmltopdf > tumblr.pdf
+wget -O - $1 | wkhtmltopdf > snailmail.pdf 
 curl https://api.lob.com/v1/jobs \
   -u test_0dc8d51e0acffcb1880e0f19c79b2f5b0cc: \
   -d "name=Latest tumblr" \
@@ -18,4 +18,4 @@ curl https://api.lob.com/v1/jobs \
   -d "object1[name]=tumblr.pdf" \
   -F "object1[file]=@tumblr.pdf" \
   -d "object1[setting_id]=100"
-rm tumblr.pdf
+rm snailmail.pdf 
